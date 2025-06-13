@@ -1,4 +1,3 @@
-import Footer from "../Layers/Footer"
 
 const Blog = () => {
   return (
@@ -18,9 +17,9 @@ const Blog = () => {
           </div>
 
           <div className="px-10 md:py-16 py-14 -ml-20 md:ml-0">
-            <img src="/src/assets/images/w1.png" className="ml-10 relative z-20" alt="" />
+            <img src="/src/assets/w1.png" className="ml-10 relative z-20" alt="" />
             <div className="absolute sm:z-10  top-130 md:-top-120 right-0 rotate-180 ">
-              <img src="/src/assets/images/Group 5.png" alt="" />
+              <img src="/src/assets/Group 5.png" alt="" />
 
             </div>
           </div>

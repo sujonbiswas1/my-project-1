@@ -1,4 +1,3 @@
-import Footer from "../Layers/Footer"
 
 const Accelerator = () => {
   return (
@@ -10,11 +9,11 @@ const Accelerator = () => {
 
 
         <div className="flex flex-col lg:flex-row gap-4">
-          <img src="/src/assets/images/partner-1.png" alt="" />
-          <img src="/src/assets/images/partner2.png" alt="" />
-           <img src="/src/assets/images/partner-3.png" alt="" />
-           <img src="/src/assets/images/partner-1.png" alt="" />
-             <img src="/src/assets/images/partner2.png" alt="" />
+          <img src="/src/assets/partner-1.png" alt="" />
+          <img src="/src/assets/partner2.png" alt="" />
+           <img src="/src/assets/partner-3.png" alt="" />
+           <img src="/src/assets/partner-1.png" alt="" />
+             <img src="/src/assets/partner2.png" alt="" />
           
 
         </div>
