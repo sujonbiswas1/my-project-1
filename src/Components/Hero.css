@@ -1,0 +1,22 @@
+.back{
+     background-image: url('/src/assets/images/heroback.png');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     height: 90vh;
+     padding:150px 60px;
+     top: 0;
+     
+     
+}
+
+
+
+@media (min-width:769px) and (max-width:1200px){
+     .back{
+          height: 70vh;
+     }
+
+
+}
+
