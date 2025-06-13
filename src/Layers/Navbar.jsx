@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="py-5 z-50 sticky top-0 mx-auto bg-black">
       <div className="flex  px-4 sm:px-6 md:px-8 lg:px-14 container mx-auto justify-between ">
          <div className="flex items-start">
-         <Link to='/'> <img src="/src/assets/images/Logo.png"  className="w-[110px] cursor-pointer" alt="" /> </Link> 
+         <Link to='/'> <img src="/src/assets/Logo.png"  className="w-[110px] cursor-pointer" alt="" /> </Link> 
         </div>
 
          <div className="md:flex hidden gap-6 ">
