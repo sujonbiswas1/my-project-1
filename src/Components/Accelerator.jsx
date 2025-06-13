@@ -9,11 +9,11 @@ const Accelerator = () => {
 
 
         <div className="flex flex-col lg:flex-row gap-4">
-          <img src="/src/assets/partner-1.png" alt="" />
-          <img src="/src/assets/partner2.png" alt="" />
-           <img src="/src/assets/partner-3.png" alt="" />
-           <img src="/src/assets/partner-1.png" alt="" />
-             <img src="/src/assets/partner2.png" alt="" />
+          <img src="/public/partner-1.png" alt="" />
+          <img src="/public/partner2.png" alt="" />
+           <img src="/public/partner-3.png" alt="" />
+           <img src="/public/partner-1.png" alt="" />
+             <img src="/public/partner2.png" alt="" />
           
 
         </div>

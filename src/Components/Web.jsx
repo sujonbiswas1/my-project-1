@@ -5,9 +5,9 @@ const Web = () => {
       <div className="px-4 sm:px-8 md:px-14 lg:px-24 container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="px-10 md:py-16 py-0 ">
-            <img src="/src/assets/w1.png" className="ml-10 z-20" alt="" />
+            <img src="/public/w1.png" className="ml-10 z-20" alt="" />
             <div className="absolute sm:z-10  -top-40 md:-top-50 -left-0">
-              <img src="/src/assets/Group 5.png" alt="" />
+              <img src="/public/Group 5.png" alt="" />
 
             </div>
           </div>

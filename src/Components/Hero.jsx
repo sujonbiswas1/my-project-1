@@ -16,7 +16,7 @@ const Hero = () => {
           </div>
 
           <div>
-            <img src="/src/assets/hero2.png" className=' mt-40 md:-mt-10'  alt="" />
+            <img src="/public/hero2.png" className=' mt-40 md:-mt-10'  alt="" />
           </div>
 
           

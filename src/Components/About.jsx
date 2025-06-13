@@ -11,7 +11,7 @@ const About = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  ">
 
             <div className="bg-[#20114f] outline-[#4719bc] relative py-10 mt-18 md:mt-0 px-6 rounded-2xl" >
-              <img src="/src/assets/e1.png" className="shadow-lg absolute -top-28 -ml-5" alt="" />
+              <img src="/public/e1.png" className="shadow-lg absolute -top-28 -ml-5" alt="" />
               <h3 className="text-2xl text-white text-center font-semibold mb-4">Education</h3>
               <p className="text-secoundary mb-4 ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing</p>
 
@@ -20,7 +20,7 @@ const About = () => {
             </div>
 
               <div className="bg-[#20114f] outline-[#4719bc] relative py-10 mt-18 md:mt-0 px-6 rounded-2xl" >
-              <img src="/src/assets/government.png" className="shadow-lg absolute -top-40 -ml-2" alt="" />
+              <img src="/public/government.png" className="shadow-lg absolute -top-40 -ml-2" alt="" />
               <h3 className="text-2xl text-white text-center font-semibold mb-4">Governance</h3>
               <p className="text-secoundary mb-4 ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing</p>
 
@@ -29,7 +29,7 @@ const About = () => {
             </div>
 
             <div className="bg-[#20114f] outline-[#4719bc] relative py-10 mt-18 md:mt-0 px-6 rounded-2xl" >
-              <img src="/src/assets/e1.png" className="shadow-lg absolute -top-28 -ml-5" alt="" />
+              <img src="/public/e1.png" className="shadow-lg absolute -top-28 -ml-5" alt="" />
               <h3 className="text-2xl text-white text-center font-semibold mb-4">Education</h3>
               <p className="text-secoundary mb-4 ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing</p>
 
@@ -38,7 +38,7 @@ const About = () => {
             </div>
 
               <div className="bg-[#20114f] outline-[#4719bc] relative py-10 mt-18 md:mt-0 px-6 rounded-2xl" >
-              <img src="/src/assets/government.png" className="shadow-lg absolute -top-40 -ml-2" alt="" />
+              <img src="/public/government.png" className="shadow-lg absolute -top-40 -ml-2" alt="" />
               <h3 className="text-2xl text-white text-center font-semibold mb-4">Governance</h3>
               <p className="text-secoundary mb-4 ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing</p>
 
