@@ -21,7 +21,7 @@ function App() {
       <Route path="/Accelerator" element={<Accelerator />}  />
       <Route path="/blog" element={<Blog />}  />
       <Route path="/contact" element={<Contact />}  />
-      <Route path="/*" element={<Error />}  />
+      <Route path="*" element={<Error />}  />
     </Routes>
     </BrowserRouter>
     
