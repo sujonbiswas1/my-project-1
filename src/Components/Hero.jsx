@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="back z-10 ">
         <div className='grid grid-cols-1 md:grid-cols-2  max-w-screen mx-auto space-x-8'>
 
-          <div className=''>
+          <div className='' data-aos="fade-up">
             <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl w-full text-white font-bold mb-6'>Build Inform Advance</h1>
             <p className=' text-secoundary'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
 
@@ -16,7 +16,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div>
+          <div data-aos="fade-down">
             <img src={hero2} className=' mt-40 md:-mt-10'  alt="" />
           </div>
 

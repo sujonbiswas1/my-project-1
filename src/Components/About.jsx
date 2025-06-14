@@ -5,11 +5,11 @@ const About = () => {
     <div className="bg-black md:py-16 py-8  overflow-hidden">
      <div className="flex flex-col items-center px-4 sm:px-8 md:px-14 lg:px-20 mx-auto container justify-center">
       <div>
-        <h1 className="text-center -mt-3 md:mt-0 text-5xl md:text-4xl lg:text-5xl text-white font-medium">Our <span className="bg-linear-to-l from-purple-400 to-blue-600 bg-clip-text text-transparent ">Vertical </span> </h1>
+        <h1 data-aos="zoom-in" className="text-center -mt-3 md:mt-0 text-5xl md:text-4xl lg:text-5xl text-white font-medium" >Our <span className="bg-linear-to-l from-purple-400 to-blue-600 bg-clip-text text-transparent ">Vertical </span> </h1>
 
         <div className="md:pt-60 pt-8">
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  ">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10  " data-aos="zoom-in-up">
 
             <div className="bg-[#20114f] outline-[#4719bc] relative py-10 mt-18 md:mt-0 px-6 rounded-2xl" >
               <img src={e1} className="shadow-lg absolute -top-28 -ml-5" alt="" />

@@ -22,7 +22,7 @@ import w1 from '../images/w1.png';
     const data = await response.json();
 
     if (data.success) {
-      setResult("");
+      setResult("submited");
       toast.success()
       event.target.reset();
     } else {
@@ -39,11 +39,11 @@ import w1 from '../images/w1.png';
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-          <div>
+          <div data-aos="fade-up">
           <img src={w1} alt="" />
         </div>
 
-        <div>
+        <div data-aos="fade-down">
           <h2 className="text-4xl text-center font-bold text-white mb-12">Contact Us</h2>
 
 
@@ -53,7 +53,7 @@ import w1 from '../images/w1.png';
           <div className="bg-gradient-to-r p-1 from-blue-600 to-pink-500 rounded-3xl mb-12">
 
             <div className="bg-black p-2 rounded-3xl">
-              <input type="text" name='email' className="bg-transparent w-full text-white px-4 " />
+              <input type="email" name='email' className="bg-transparent w-full text-white px-4 " required />
 
             </div>
 
@@ -64,14 +64,14 @@ import w1 from '../images/w1.png';
 
 
             <div className="bg-black p-2 rounded-3xl">
-              <textarea name="description" id="" className="bg-transparent w-full text-white px-4 h-[10rem]"></textarea>
+              <textarea name="description" id="" className="bg-transparent w-full text-white px-4 h-[10rem]" required></textarea>
 
             </div>
 
           </div>
 
           <button type='submit' onClick={notify} className="w-full bg-linear-to-l from-pink-500 to-blue-500 text-white text-2xl rounded-3xl py-2 cursor-pointer">submit</button>
-          <span>{result}</span>
+          <span className='text-white text-2xl mt-5 pt-5'>{result}</span>
 
 
           </form>
