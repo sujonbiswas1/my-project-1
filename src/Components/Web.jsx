@@ -2,7 +2,7 @@ import group5 from '../images/Group5.png'
 import w1 from '../images/w1.png'
 const Web = () => {
   return (
-    <div className="py-30 bg-black relative h-full] overflow-hidden">
+    <div className="md:py-30 py-5  bg-black relative h-full] overflow-hidden">
       <div className="px-4 sm:px-8 md:px-14 lg:px-24 container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="px-10 md:py-16 py-0 ">
