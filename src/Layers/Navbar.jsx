@@ -33,7 +33,7 @@ const Navbar = () => {
         {
           isopen &&(
             <div className="md:hidden">
-              <div className="flex flex-col px-14 py-14 space-y-3 text-2xl text-white bg-black w-[60rem]">
+              <div className="flex flex-col px-1 py-14 text-center justify-center items-center space-y-3 text-xl text-white bg-black max-w-screen ">
 
                 <NavLink to="/about" onClick={isopen} className="">About Us</NavLink>
                <NavLink to="/web" className="" onClick={isopen}>Web3ATL</NavLink>
