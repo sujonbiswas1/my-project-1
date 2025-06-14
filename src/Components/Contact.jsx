@@ -22,7 +22,7 @@ const Contact = () => {
 
           </div>
 
-             <div className="bg-gradient-to-r p-1 from-blue-600 to-pink-500 rounded-3xl mb-12">
+             <div className="bg-gradient-to-r p-1 from-blue-600 to-pink-500  rounded-3xl mb-12">
 
 
 
