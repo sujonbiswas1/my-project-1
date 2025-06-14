@@ -20,7 +20,7 @@ const Footer = () => {
 
         </div>
 
-         <div className="flex flex-col md:flex-row gap-6 ">
+         <div className="flex flex-col md:flex-row gap-6 mt-10 md:mt-0 ">
           <NavLink to="/about" className="text-[16px] text-white font-medium hover:text-gray-100 transition-all duration-300 delay-200">About Us</NavLink>
           <NavLink to="/web" className="text-[16px] text-white font-medium hover:text-gray-100 transition-all duration-300 delay-200">Web3ATL</NavLink>
           <NavLink to="/accelerator" className="text-[16px] text-white font-medium hover:text-gray-100 transition-all duration-300 delay-200">Accelerator</NavLink>
