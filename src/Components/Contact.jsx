@@ -1,4 +1,4 @@
-
+import w1 from '../images/w1.png'
 const Contact = () => {
   return (
     <div className="pb-50 pt-14 bg-black relative overflow-hidden"> 
@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
           <div>
-          <img src="/public/w1.png" alt="" />
+          <img src={w1} alt="" />
         </div>
 
         <div>

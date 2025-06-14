@@ -1,4 +1,5 @@
-
+import group5 from '../images/Group5.png'
+import w1 from '../images/w1.png'
 const Blog = () => {
   return (
      <div className=" bg-black relative h-full overflow-hidden pb-30">
@@ -17,9 +18,9 @@ const Blog = () => {
           </div>
 
           <div className="px-10 md:py-16 py-14 -ml-20 md:ml-0">
-            <img src="/public/w1.png" className="ml-10 relative z-20" alt="" />
+            <img src={w1} className="ml-10 relative z-20" alt="" />
             <div className="absolute sm:z-10  top-130 md:-top-120 right-0 rotate-180 ">
-              <img src="/public/Group 5.png" alt="" />
+              <img src={group5} alt="" />
 
             </div>
           </div>

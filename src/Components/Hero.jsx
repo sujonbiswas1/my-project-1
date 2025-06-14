@@ -1,3 +1,4 @@
+import hero2 from '../images/hero2.png'
 import './Hero.css'
 const Hero = () => {
   return (
@@ -16,7 +17,7 @@ const Hero = () => {
           </div>
 
           <div>
-            <img src="/public/hero2.png" className=' mt-40 md:-mt-10'  alt="" />
+            <img src={hero2} className=' mt-40 md:-mt-10'  alt="" />
           </div>
 
           

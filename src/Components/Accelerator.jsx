@@ -1,4 +1,6 @@
-
+import partner1 from '../images/partner-1.png'
+import partner3 from '../images/partner-3.png'
+import partner2 from '../images/partner2.png'
 const Accelerator = () => {
   return (
     <div className=" bg-black overflow-hidden md:pb-70">
@@ -9,11 +11,11 @@ const Accelerator = () => {
 
 
         <div className="flex flex-col lg:flex-row gap-4">
-          <img src="/public/partner-1.png" alt="" />
-          <img src="/public/partner2.png" alt="" />
-           <img src="/public/partner-3.png" alt="" />
-           <img src="/public/partner-1.png" alt="" />
-             <img src="/public/partner2.png" alt="" />
+          <img src={partner1} alt="" />
+          <img src={partner2} alt="" />
+           <img src={partner3} alt="" />
+           <img src={partner1} alt="" />
+             <img src={partner2} alt="" />
           
 
         </div>

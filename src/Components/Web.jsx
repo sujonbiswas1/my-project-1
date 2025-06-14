@@ -1,13 +1,14 @@
-
+import group5 from '../images/Group5.png'
+import w1 from '../images/w1.png'
 const Web = () => {
   return (
     <div className="py-30 bg-black relative h-full] overflow-hidden">
       <div className="px-4 sm:px-8 md:px-14 lg:px-24 container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="px-10 md:py-16 py-0 ">
-            <img src="/public/w1.png" className="ml-10 z-20" alt="" />
+            <img src={w1} className="ml-10 z-20" alt="" />
             <div className="absolute sm:z-10  -top-40 md:-top-50 -left-0">
-              <img src="/public/Group 5.png" alt="" />
+              <img src={group5} alt="" />
 
             </div>
           </div>
