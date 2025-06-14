@@ -10,7 +10,7 @@ const Hero = () => {
             <h1 className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl w-full text-white font-bold mb-6'>Build Inform Advance</h1>
             <p className=' text-secoundary'>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
 
-            <div className='mt-10 flex gap-6'>
+            <div className='mt-10 flex flex-col md:flex-row gap-6'>
               <button className='bg-linear-to-l from-purple-500 to-blue-600 px-10 py-2 rounded-xl text-white font-medium cursor-pointer '>Apply For Accelerator</button>
               <button className='border border-amber-300 px-10 py-2 text-transparent rounded-xl font-medium  cursor-pointer'>Apply For Accelerator</button>
             </div>
