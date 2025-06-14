@@ -12,7 +12,7 @@ const Hero = () => {
 
             <div className='mt-10 flex flex-col md:flex-row gap-6'>
               <button className='bg-linear-to-l from-purple-500 to-blue-600 px-10 py-2 rounded-xl text-white font-medium cursor-pointer '>Apply For Accelerator</button>
-              <button className='border border-amber-300 px-10 py-2 text-transparent rounded-xl font-medium  cursor-pointer'>Apply For Accelerator</button>
+              <button className='border border-amber-300 px-10 py-2 text-white  md:text-transparent rounded-xl font-medium  cursor-pointer'> this is sujon</button>
             </div>
           </div>
 
