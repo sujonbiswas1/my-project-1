@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
 
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-white text-4xl font-bold inline-flex items-center justify-center">
+          <button onClick={toggleMenu} className="text-white text-4xl font-bold inline-flex items-center justify-center ">
             {!isopen?'o':'x'}
           </button>
 
@@ -32,8 +32,8 @@ const Navbar = () => {
 
         {
           isopen &&(
-            <div className="md:hidden">
-              <div className="flex flex-col px-1 py-14 text-center justify-center items-center space-y-3 text-xl text-white bg-black max-w-screen ">
+            <div className="md:hidden ">
+              <div className=" bg-black w-[100%] h-[100vh] text-white flex flex-col items-center text-center space-y-3 text-xl max-h-screen mt-[110%] -ml-[100%]">
 
                 <NavLink to="/about" onClick={isopen} className="">About Us</NavLink>
                <NavLink to="/web" className="" onClick={isopen}>Web3ATL</NavLink>

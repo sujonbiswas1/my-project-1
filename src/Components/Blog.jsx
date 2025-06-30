@@ -2,7 +2,7 @@ import group5 from '../images/Group5.png'
 import w1 from '../images/w1.png'
 const Blog = () => {
   return (
-     <div className=" bg-black relative h-full overflow-hidden pb-30">
+     <div className=" bg-black relative h-full overflow-hidden pb-8 md:pb-30">
       <div className="px-4 sm:px-8 md:px-14 lg:px-24 container mx-auto">
 
         <div>
